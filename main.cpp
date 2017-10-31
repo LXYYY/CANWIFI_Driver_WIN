@@ -1,8 +1,8 @@
-#include <QCoreApplication>
+#include "JDX_CanConnector.h"
+#include <iostream>
+using namespace std;
 
-int main(int argc, char *argv[])
+int main()
 {
-    QCoreApplication a(argc, argv);
-
-    return a.exec();
+    JDX_CanConnector* canConnector=new JDX_CanConnector;
 }
